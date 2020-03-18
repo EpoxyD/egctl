@@ -11,7 +11,7 @@ ifdef DEBUG
 endif
 
 DESTDIR =
-PREFIX = /usr/local
+PREFIX = ${HOME}/.local
 
 bindir = $(PREFIX)/bin
 mandir = $(PREFIX)/share/man
